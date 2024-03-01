@@ -1,0 +1,130 @@
+/* styles.css */
+/* styles.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  /*background-image: url('background.jpg');  Путь к вашему изображению */
+  background-size: cover;
+  background-position: center;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.0); /* Добавим прозрачный фон для контента */
+}
+
+header {
+  background: #333;
+  color: #fff;
+  padding: 10px 0;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.main-section,
+.about-section,
+.catalog-section,
+.contact-section {
+  padding: 50px 0;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.gallery img {
+  width: 200px;
+  margin: 10px;
+}
+
+/* Для кнопок действия */
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #333;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  background: #555;
+}
+
+footer {
+  background: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+footer p {
+  margin: 0;
+}
+
+.social-links a {
+  color: #fff;
+  margin: 0 10px;
+}
+
+/* Для всех секций с классом .main-section, .about-section, .catalog-section, .contact-section */
+.main-section,
+.about-section,
+.catalog-section,
+.contact-section {
+  padding: 50px 0;
+  background-color: rgba(255, 255, 255, 0.0); /* Прозрачный фон */
+}
+
+/* Для заголовков внутри секций */
+.main-section h2,
+.about-section h2,
+.catalog-section h2,
+.contact-section h2 {
+  margin-top: 0;
+}
+
+/* Для параграфов внутри секций */
+.main-section p,
+.about-section p,
+.catalog-section p,
+.contact-section p {
+  margin-bottom: 15px;
+}
+
+/* Для списка преимуществ в разделе "О нас" */
+.about-section ul {
+  margin-top: 0;
+}
+
+/* Для формы обратной связи в разделе "Контакты" */
+.contact-section form {
+  margin-top: 20px;
+}
+
+
+.btn:hover {
+  background: #555;
+}
